@@ -64,7 +64,126 @@
                 i.fas.fa-atom(style="color:#FF9D00;")
                 | Productos biotecnológicos.
 
-      
+    .cajon.color-secundario.p-4.mt-5(style="background-color:#E4DDFA;")
+      p.mb-0(data-aos="fade-up") Todos ellos se consideran como productos tangibles que deben cumplir con las expectativas de los usuarios finales.
+
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_2_1 2.1 Ficha técnica de los productos farmacéuticos
+    
+    .row
+      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        .p-4.cont_responsive1.pt-5.pb-5(data-aos="fade-right" style="background-color:#CDEDFC;width:150%;right:-20%;border-radius:40px 40px 0px 40px;position:relative;z-index:2;box-shadow:0px 0px 20px rgba(0,0,0,.2);")
+          p Uno de los documentos más importantes que debe tener un servicio o establecimiento farmacéutico es la ficha técnica de productos farmacéuticos, ya que a través de esta se brinda información técnica importante para el manejo de estos dentro de las actividades del inventario.
+          p.mt-4.mb-0 Esta ficha, que también recibe el nombre de #[strong “Resumen de las Características del Producto”] en el ámbito farmacéutico, es un documento oficial, aprobado por las autoridades sanitarias competentes, que contiene la información más relevante que se genera durante la investigación y evaluación de un producto farmacéutico. 
+      .col-lg-8(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema2/4.png" data-aos="fade-left")
+    
+    h3.mt-5(data-aos="fade-up") Características de la ficha técnica
+    p.mt-4(data-aos="fade-up") La ficha técnica de un producto farmacéutico presenta una información técnica muy relevante que sirve como guía de los profesionales de la salud para el manejo de estos.
+
+    .row.mt-5
+      .col-lg-1
+      .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema2/5.svg" data-aos="fade-right")
+      .col-lg-6(style="place-self:center;")
+        p(data-aos="fade-up") La información que estas contienen varía según el producto farmacéutico, ya sea:
+        ul.lista-ul.mt-3.mb-0
+          li(data-aos="fade-up")
+            i.fas.fa-atom(style="color:#FF9D00;")
+            | Medicamento (homeopático, fitoterapeuticos, nutracéutico).
+          li(data-aos="fade-up")
+            i.fas.fa-atom(style="color:#FF9D00;")
+            | Dispositivo médico.
+          li(data-aos="fade-up")
+            i.fas.fa-atom(style="color:#FF9D00;")
+            | Cosmético.
+          li(data-aos="fade-up")
+            i.fas.fa-atom(style="color:#FF9D00;")
+            | Biológico, etc.
+    
+    p.mt-5(data-aos="fasde-up") A continuación, se presenta un ejemplo de las características de la estructura de una ficha técnica de un producto farmacéutico, donde se evidencia lo completo que es el documento, debido a que aplica tanto para establecimientos farmacéuticos comerciales como las farmacias/droguerías, droguerías y depósitos, como para los servicios farmacéuticos, porque la información abarca temas comerciales, de almacenamiento, conservación y clínicos.
+
+    .col-lg-8.m-auto.mt-5
+      figure
+        img(src="@/assets/curso/tema2/6.svg" data-aos="zoom-in-up")
+    
+    .row.mt-5.p-3(style="background-color:#E6F7FE;")
+      .col-lg-11.row.m-auto
+        .col-lg-4.col-md-5.mb-4.mb-md-0(style="place-self:center;")
+          figure
+            img(src="@/assets/curso/tema2/7.svg" data-aos="fade-right")
+        .col-lg-8.col-md-7(style="place-self:center;")
+          p(data-aos="fade-up") Para entender mejor la información requerida para que la ficha técnica de un medicamento esté completa, se invita al aprendiz a consultar en “ejemplo ficha técnica” donde se podrá observar de manera completa un ejemplo de la ficha técnica del medicamento Verapamilo.
+          a.anexo.mt-4.bg-white(:href="obtenerLink('downloads/Anexo2_CF017_ejemplo_ficha_tecnica.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.mb-0.fw-bold Anexo. Ejemplo ficha técnica
+
+    p.mt-5(data-aos="fade-up") A continuación, se presenta un ejemplo de la estructura de una ficha técnica de los dispositivos médicos, donde se pueden observar sus características:
+
+    .col-lg-8.m-auto.mt-5
+      figure
+        img(src="@/assets/curso/tema2/8.svg" data-aos="zoom-in-up")
+    
+    .row.mt-5.p-3(style="background-color:#E6F7FE;")
+      .col-lg-11.row.m-auto
+        .col-lg-4.col-md-5.mb-4.mb-md-0(style="place-self:center;")
+          figure
+            img(src="@/assets/curso/tema2/7.svg" data-aos="fade-right")
+        .col-lg-8.col-md-7(style="place-self:center;")
+          p(data-aos="fade-up") A continuación, se presenta un ejemplo de la estructura de una ficha técnica de los dispositivos médicos, donde se pueden observar sus características:
+          a.anexo.mt-4.bg-white(:href="obtenerLink('downloads/Anexo3_CF017_ejemplo_ficha_tecnica_producto_terminado.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.mb-0.fw-bold Anexo. Ficha técnica producto terminado
+
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_2_2 2.2. Aplicaciones de la ficha técnica
+    
+    p(data-aos="fade-up") Se debe recordar que la ficha técnica es un documento de gran utilidad para todos los profesionales que hacen parte del sector farmacéutico y en general del sector salud. También es una herramienta para la autoridad sanitaria, debido a que abarca información legal y técnica de los productos farmacéuticos.
+    p.mt-4(data-aos="fade-up") Tiene, entre otras, las siguientes aplicaciones:
+    
+    .row.mt-5
+      .col-lg-3.mb-4.mb-lg-0(style="place-self:end;")
+        figure.figure_img1(style="position:relative;")
+          img(src="@/assets/curso/tema2/9.svg" data-aos="zoom-in-up")
+      .col-lg-9.row
+        .col-lg-4.mb-4
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 1
+            p.mt-3.mb-0 Promoción del producto farmacéutico enfocado al profesional sanitario.
+        .col-lg-4.mb-4
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 2
+            p.mt-3.mb-0 Elaboración de guías farmacológicas.
+        .col-lg-4.mb-4
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 3
+            p.mt-3.mb-0 Actualización periódica sobre la seguridad de los productos farmacéuticos ante las autoridades sanitarias.
+        .col-lg-4
+        .col-lg-4.mb-4
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 4
+            p.mt-3.mb-0 Actualización periódica sobre la seguridad de los productos farmacéuticos ante las autoridades sanitarias.
+        .col-lg-4.mb-4
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 5
+            p.mt-3.mb-0 Apoyo en caso de litigios legales por mala praxis de los profesionales sanitarios.
+            
+
       
 
 
@@ -103,4 +222,11 @@ export default {
   background-size: cover
   background-repeat: no-repeat
   background-position: center top
+.figure_img1:after
+  content: ''
+  position: absolute
+  width: 130%
+  bottom: 0
+  height: 5px
+  background-color: #455A64
 </style>

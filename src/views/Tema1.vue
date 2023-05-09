@@ -23,7 +23,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
             i.fas.fa-quote-left
-            h3.mb-0 Criterios de almacenamiento. Los dispositivos médicos y los medicamentos se almacenarán de acuerdo con la clasificación farmacológica (medicamentos) en orden alfabético o cualquier otro método de clasificación, siempre y cuando se garantice el orden, se minimicen los eventos de confusión, pérdida y vencimiento durante su almacenamiento. El sistema de segregación de los dispositivos médicos y medicamentos debe garantizar que el lote más próximo a vencerse sea lo primero en dispensarse
+            h3.mb-0 Criterios de almacenamiento. Los dispositivos médicos y los medicamentos se almacenarán de acuerdo con la clasificación farmacológica (medicamentos) en orden alfabético o cualquier otro método de clasificación, siempre y cuando se garantice el orden, se minimicen los eventos de confusión, pérdida y vencimiento durante su almacenamiento. El sistema de segregación de los dispositivos médicos y medicamentos debe garantizar que el lote más próximo a vencerse sea lo primero en dispensarse.
             i.fas.fa-quote-right
       .col-lg-3(style="place-self:center;")
         figure
