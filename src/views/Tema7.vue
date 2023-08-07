@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1 Kardex
+      h1 Kárdex
     
     .row
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -28,11 +28,11 @@
         figure
           img(src="@/assets/curso/tema7/1.svg" data-aos="fade-left")
     
-    p.mt-5(data-aos="fade-up") La siguiente imagen muestra algunos de los elementos que se incluyen en un Kardex (ver figura 3).
+    p.mt-5(data-aos="fade-up") La siguiente imagen muestra algunos de los elementos que se incluyen en un Kárdex (ver figura 3).
 
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Figura 3
-      span #[em Elementos de un Kardex]
+      span #[em Elementos de un Kárdex]
     figure.mt-5
       img(src="@/assets/curso/tema7/2.svg" data-aos="zoom-in-up")
 

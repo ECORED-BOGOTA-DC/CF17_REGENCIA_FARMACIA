@@ -47,7 +47,7 @@
               | Establecer los requerimientos técnico-funcionales mínimos de la plataforma tecnológica a utilizar para el despliegue del sistema de trazabilidad.
             li(data-aos="fade-up")
               i.fas.fa-atom(style="color:#7E5EE3;")
-              | Establecer hoja de ruta para la implementación a nivel nacional.”
+              | Establecer hoja de ruta para la implementación a nivel nacional.
           p.mt-4(data-aos="fade-up") (GS1, 2017). Ley 1122 de 2007, en su numeral 34, literal d. 
       .col-lg-4
         figure
@@ -56,7 +56,7 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_3_1 3.1 Stock
+      h2#t_3_1 3.1 #[em Stock]
     
     .cont_3_1.pt-5.pb-5
       .col-lg-10.row.m-auto
@@ -67,15 +67,15 @@
           .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#F6F6F6;width:150%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;position:relative;z-index:2;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
             p.mb-0 En una farmacia o droguería, el inventario se realiza para conocer el surtido y la circulación de los productos. De acuerdo con lo anterior se tendrá una idea precisa y concreta de los productos disponibles y permite decidir cuándo realizar un pedido con el proveedor. Este cálculo se denomina pedido anticipado porque el momento exacto para solicitar el medicamento depende de la tasa de consumo y el tiempo de rotación.
     
-    p.mt-5(data-aos="fade-up") A continuación, se describen los tipos de stock según su función en el proceso de inventario (ver tabla 1):
+    p.mt-5(data-aos="fade-up") A continuación, se describen los tipos de #[em stock] según su función en el proceso de inventario (ver tabla 1):
 
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Tabla 1
-      span Tipos de stock
+      span Tipos de #[em stock]
     
     .tabla-a.color-acento-contenido.mt-5 
       table
-        caption.fw-normal(style="backgorund-color:#E8E8E8;") Nota. Tomada de McGraw Hill España. La gestión de stock. (s.f.).
+        caption.fw-normal(style="backgorund-color:#E8E8E8;") Nota. Tomada de McGraw Hill España. La gestión de #[em stock]. (s.f.).
         thead
           tr(style="background-color:#7FDDE9;")
             th.p-4.text-center(style="border:0;") Función
@@ -83,72 +83,72 @@
             th.p-4.text-center(style="border:0;") Ejemplo
         tbody
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de ciclo
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de ciclo
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias para cubrir la demanda mientras llega el próximo pedido.
             td.p-4(style="border:0;") Si una tienda vende 10 cartones de leche al día y el lechero pasa cada tres días, necesitará 30 cartones hasta la llegada del siguiente pedido.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock estacional
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] estacional
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias disponibles para aumentos esperados de la demanda.
             td.p-4(style="border:0;") Las fábricas de turrón necesitan más existencias cuando se aproxima la campaña de navidad.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de tránsito
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de tránsito
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias pendientes de ser entregadas (o terminadas de fabricar) y en el trayecto de destino.
             td.p-4(style="border:0;") Una empresa tiene tres cajas de conservas paletizadas para entregarlas al cliente.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock óptimo
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] óptimo
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Nivel adecuado de existencias almacenadas para atender la posible demanda, pero sin generar un exceso inútil.
-            td.p-4(style="border:0;") En las fiestas de carnaval, una tienda de disfraces debe contar con un aumento de mercancía en el almacén para satisfacer la demanda, pero sin exceso para no generar stock muerto después de la temporada.
+            td.p-4(style="border:0;") En las fiestas de carnaval, una tienda de disfraces debe contar con un aumento de mercancía en el almacén para satisfacer la demanda, pero sin exceso para no generar #[em stock] muerto después de la temporada.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de seguridad
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de seguridad
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias previstas para hacer frente a un incremento puntual de la demanda o a un retraso en la entrega del pedido.
             td.p-4(style="border:0;") Una librería está pendiente de recibir el pedido de cuadernos en septiembre y el proveedor se retrasa. Si tiene cuadernos extras, podrá compensar el retraso y atender la demanda en ese lapso.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de presentación
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de presentación
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias expuestas al público en el comercio.
             td.p-4(style="border:0;") La ropa expuesta en un escaparate.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de especulación
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de especulación
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Se compran existencias ante un futuro incremento de los precios o ante la dificultad de su suministro.
             td.p-4(style="border:0;") Una empresa compra aceite en cantidad después de saber que el próximo año habrá poca cosecha de aceituna.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de anticipación
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock que se acumula ante un incremento previsto de las ventas.
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de anticipación
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] que se acumula ante un incremento previsto de las ventas.
             td.p-4(style="border:0;") Se lanza una campaña de publicidad que dará lugar a un aumento de las ventas del 1%.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock de recuperación
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de recuperación
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias usadas que se pueden volver a utilizar en su totalidad o al menos en parte.
             td.p-4(style="border:0;") Envases de vidrio de una industria embotelladora.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock muerto
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] muerto
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias que no pueden ser reutilizadas ni vendidas por un cambio en la demanda o en las necesidades del cliente.
             td.p-4(style="border:0;") Una tienda posee artículos obsoletos de hace dos temporadas y no hay demanda real para adquirir el producto.
           tr(style="background-color:#FAFAFA;")
-            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Stock máximo
+            td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] máximo
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Cantidad máxima de existencias que es posible almacenar.
             td.p-4(style="border:0;") Un almacén donde solo hay espacio para 20 cajas en las estanterías y 10 más apiladas en el suelo. No se podrá pedir más mercancía hasta que se libere ese espacio. 
     
-    p.mt-5(dta-aos="fade-up") La siguiente imagen presenta gráficamente algunos de estos stocks (ver figura 2).
+    p.mt-5(dta-aos="fade-up") La siguiente imagen presenta gráficamente algunos de estos #[em stocks] (ver figura 2).
 
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
         h5.d-block Figura 2
-        span Gráfico tipos de stock
+        span Gráfico tipos de #[em stock]
       figure.mt-5
         img(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up")
-        figcaption.fw-normal.mt-3(style="backgorund-color:#E8E8E8;") Nota.Adaptada de McGraw Hill España. La gestión de stock. (s.f.).
+        figcaption.fw-normal.mt-3(style="backgorund-color:#E8E8E8;") Nota.Adaptada de McGraw Hill España. La gestión de #[em stock]. (s.f.).
       .row.mt-5
         .col-lg.p-0
           figure
             img(src="@/assets/curso/tema3/6.png" data-aos="fade-right")
         .col-lg.p-0
           .p-5.h-100.d-flex.align-items-center(style="background-color:#D3EFFC;" data-aos="zoom-in-up")
-            p.mb-0 El stock o existencias, es el conjunto de productos almacenados por una empresa. Estas existencias se refieren no solo a los medicamentos y dispositivos médicos, sino también a las materias primas de las centrales de mezclas y a los productos terminados dispuestos para ser entregados a clientes.
+            p.mb-0 El #[em stock] o existencias, es el conjunto de productos almacenados por una empresa. Estas existencias se refieren no solo a los medicamentos y dispositivos médicos, sino también a las materias primas de las centrales de mezclas y a los productos terminados dispuestos para ser entregados a clientes.
         .col-lg.p-0
           figure
             img(src="@/assets/curso/tema3/7.png" data-aos="fade-left")
     
-    p.mt-5(data-aos="fade-up") La gestión de stocks está muy ligada con la evaluación contable de las existencias como activos en la contabilidad de las empresas, en este caso de los depósitos de medicamentos, farmacias o droguerías. Como resultado de las variables contables de un negocio, han surgido distintas estrategias de gestión de stocks, que no tienen relación con la contabilidad. Estas pueden ser:
+    p.mt-5(data-aos="fade-up") La gestión de #[em stocks] está muy ligada con la evaluación contable de las existencias como activos en la contabilidad de las empresas, en este caso de los depósitos de medicamentos, farmacias o droguerías. Como resultado de las variables contables de un negocio, han surgido distintas estrategias de gestión de #[em stocks], que no tienen relación con la contabilidad. Estas pueden ser:
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")
@@ -183,9 +183,9 @@
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_3_2 3.2 Funciones del stock en un servicio farmacéutico – farmacia droguería
+      h2#t_3_2 3.2 Funciones del #[em stock] en un servicio farmacéutico – farmacia droguería
     
-    p(data-aos="fade-up") A continuación, se describen las funciones del stock en servicios farmacéuticos.
+    p(data-aos="fade-up") A continuación, se describen las funciones del #[em stock] en servicios farmacéuticos.
 
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-secundario--borde(titulo="Reguladora")
@@ -235,7 +235,7 @@
         p.mb-0.fw-bold(data-aos="fade-up") ¿Sabía que una característica común a todos los productos farmacéuticos es la necesidad de mantenerlos en constante movimiento?
         p.mt-4.mb-0(data-aos="fade-up") Esto se debe a que el proceso de fabricación requiere que la materia prima se extraiga del entorno natural y luego se convierta en un proceso de fabricación para convertirlo en un producto terminado comercializable. Si no se cumplen, la cadena de suministro pierde su significado, convirtiendo la pérdida de ingresos debido a la falta de inventario de ciertos productos en tiendas físicas o virtuales, una de las fallas más comunes para las empresas y, lamentablemente, los clientes están mal acostumbrados.
     
-    p.mt-5(data-aos="fade-up") Con el fin de complementar la información tratada, se invita a ver el vídeo “Manejo de stock en la farmacia” del material complementario.
+    p.mt-5(data-aos="fade-up") Con el fin de complementar la información tratada, se invita a ver el vídeo “Manejo de #[em stock] en la farmacia” del material complementario.
 
     .row.mt-5.p-3(style="background-color:#E6F7FE;")
       .col-lg-11.row.m-auto
@@ -309,8 +309,8 @@
     
     .cont_3_2.row.pt-5
       .col-lg-7.col-md-7.mb-4.mb-md-0(style="place-self:center;")
-        p(data-aos="fade-up") Los productos farmacéuticos son los activos más importantes de los proveedores de atención médica o servicios de salud, las farmacias, los depósitos mayoristas y minoristas; las farmacias o droguerías, deben administrarse de la manera más eficiente y efectiva posible, es por ello que en la gestión de inventarios debe hacerse un control estricto en el stock, en los deterioros y en las fechas de vencimientos. 
-        p.mt-4(data-aos="fade-up") La administración de cada servicio farmacéutico define la política de inventario que se aplicará en determinada empresa o negocio del sector farmacéutico; básicamente se busca el punto de equilibrio para hacer rentable todo el proceso. Generalmente se determina de acuerdo con el costo de los productos farmacéuticos frente a la demanda y/o utilización de estos. Entre los indicadores más utilizados para generar la Política de inventarios se encuentran:
+        p(data-aos="fade-up") Los productos farmacéuticos son los activos más importantes de los proveedores de atención médica o servicios de salud, las farmacias, los depósitos mayoristas y minoristas; las farmacias o droguerías, deben administrarse de la manera más eficiente y efectiva posible, es por ello que en la gestión de inventarios debe hacerse un control estricto en el #[em stock], en los deterioros y en las fechas de vencimientos. 
+        p.mt-4(data-aos="fade-up") La administración de cada servicio farmacéutico define la política de inventario que se aplicará en determinada empresa o negocio del sector farmacéutico; básicamente se busca el punto de equilibrio para hacer rentable todo el proceso. Generalmente se determina de acuerdo con el costo de los productos farmacéuticos frente a la demanda o utilización de estos. Entre los indicadores más utilizados para generar la Política de inventarios se encuentran:
         ul.lista-ul.mb-0.mt-4
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de inventarios de un servicio farmacéutico.',
+    componenteFormativo: 'Gestión de inventarios de un servicio farmacéutico',
     descripcionCurso:
       'El Tecnólogo de Regencia de Farmacia debe planear las compras, con base en la oportuna estimación de necesidades reales de productos farmacéuticos, medicamentos, cosméticos y dispositivos médicos, de acuerdo con la demanda del sector.  Durante el proceso de almacenamiento de estos productos, la realización del inventario permite evidenciar lo que puede ofertar y la forma de lograr fidelidad del cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -69,13 +69,13 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Stock',
+            titulo: '<em>Stock</em>',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo:
-              'Funciones del stock en un servicio farmacéutico – farmacia droguería',
+              'Funciones del <em>stock</em> en un servicio farmacéutico – farmacia droguería',
             hash: 't_3_2',
           },
           {
@@ -134,7 +134,7 @@ export default {
       {
         nombreRuta: 'tema7',
         numero: '7',
-        titulo: 'Kardex',
+        titulo: 'Kárdex',
         desarrolloContenidos: true,
       },
     ],
@@ -202,8 +202,8 @@ export default {
       descarga: '/downloads/Anexo5_CF017_resolución_2955_de_2007.pdf',
     },
     {
-      tema: 'Stock',
-      referencia: 'Kairos, C. (2020). Manejo de stock en la farmacia.',
+      tema: '<em>Stock</em>',
+      referencia: 'Kairos, C. (2020). Manejo de <em>stock</em> en la farmacia.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=pOnRvwRfB-8',
     },
@@ -275,9 +275,9 @@ export default {
         'La mercancía es un bien económico o escaso que se puede vender o comprar. Es un producto del trabajo que se elabora para su venta, no para el consumo propio.',
     },
     {
-      termino: 'Nivel de inventario o de stock',
+      termino: 'Nivel de inventario o de <em>stock</em>',
       significado:
-        'El nivel de inventario o stock es el control de la cantidad óptima de mercancías, para evitar la venta perdida o costo de oportunidad, así como el exceso de productos.',
+        'El nivel de inventario o <em>stock</em> es el control de la cantidad óptima de mercancías, para evitar la venta perdida o costo de oportunidad, así como el exceso de productos.',
     },
     {
       termino: 'Pérdida de mercancía',
@@ -302,7 +302,7 @@ export default {
     {
       termino: 'Rotación de inventario',
       significado:
-        'La rotación de inventario es el número de veces que el stock es renovado en cierto periodo, es decir, cuántas veces el inventario se convierte en dinero o cuentas por cobrar.',
+        'La rotación de inventario es el número de veces que el <em>stock</em> es renovado en cierto periodo, es decir, cuántas veces el inventario se convierte en dinero o cuentas por cobrar.',
     },
     {
       termino: 'Sistema de inventario',
@@ -312,7 +312,7 @@ export default {
     {
       termino: 'Software de gestión de inventarios',
       significado:
-        'El software de gestión de inventarios es un programa informático que le proporciona al negocio una visión general del inventario, herramientas de planificación y datos sobre la ubicación del stock.',
+        'El software de gestión de inventarios es un programa informático que le proporciona al negocio una visión general del inventario, herramientas de planificación y datos sobre la ubicación del <em>stock</em>.',
     },
     {
       termino: 'Valoración de inventario',
@@ -355,7 +355,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal',
           cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },

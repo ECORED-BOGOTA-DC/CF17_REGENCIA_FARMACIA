@@ -29,7 +29,7 @@
                 | Medicamentos alopáticos.
               li 
                 i.fas.fa-atom(style="color:#FF9D00;")
-                | Fitoterapeuticos.
+                | Fitoterapéuticos.
               li 
                 i.fas.fa-atom(style="color:#FF9D00;")
                 | Homeopáticos.
@@ -94,7 +94,7 @@
         ul.lista-ul.mt-3.mb-0
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")
-            | Medicamento (homeopático, fitoterapeuticos, nutracéutico).
+            | Medicamento (homeopático, fitoterapéuticos, nutracéutico).
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")
             | Dispositivo médico.
@@ -122,7 +122,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p.mb-0.fw-bold Anexo. Ejemplo ficha técnica
+              p.mb-0.fw-bold Anexo. Ejemplo ficha técnica.
 
     p.mt-5(data-aos="fade-up") A continuación, se presenta un ejemplo de la estructura de una ficha técnica de los dispositivos médicos, donde se pueden observar sus características:
 
@@ -141,7 +141,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p.mb-0.fw-bold Anexo. Ficha técnica producto terminado
+              p.mb-0.fw-bold Anexo. Ficha técnica producto terminado.
 
     Separador.mt-5
 
@@ -170,7 +170,7 @@
           .tarjeta-numerada.color-acento-contenido.p-5.h-100
             .tarjeta-numerada__numero
               .h2 3
-            p.mt-3.mb-0 Actualización periódica sobre la seguridad de los productos farmacéuticos ante las autoridades sanitarias.
+            p.mt-3.mb-0 Fuente de información y consulta sobre la eficacia, seguridad del producto farmacéutico, #[strong gestión inventarios].
         .col-lg-4
         .col-lg-4.mb-4
           .tarjeta-numerada.color-acento-contenido.p-5.h-100

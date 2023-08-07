@@ -8,7 +8,7 @@
       h1 Inventarios
 
     .row
-      .col-lg-4.mb-4.mb-lg-0.cont_1_1(style="place-self:center;")
+      .col-lg-4.mb-5.mb-lg-0.cont_1_1(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/2.svg" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
@@ -27,9 +27,9 @@
             i.fas.fa-quote-right
       .col-lg-3(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/3.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema1/3.svg" data-aos="fade-left")
     
-    p.mt-5(data-aos="fade-up") El desarrollo y control del inventario de una farmacia o servicios farmacéutico, está directamente relacionada con el volumen de su actividad diaria, con el nivel de complejidad en el cual se ejecuta; por lo tanto, el inventario de una empresa del sector farmacéutico depende del tamaño, volumen, estructura y características y principalmente a los procesos de selección y adquisición de medicamentos, dispositivos médicos y productos farmacéuticos, que constituyen las existencias reales de la empresa. 
+    p.mt-5(data-aos="fade-up") El desarrollo y control del inventario de una farmacia o servicio farmacéutico, está directamente relacionada con el volumen de su actividad diaria, con el nivel de complejidad en el cual se ejecuta; por lo tanto, el inventario de una empresa del sector farmacéutico depende del tamaño, volumen, estructura y características y principalmente a los procesos de selección y adquisición de medicamentos, dispositivos médicos y productos farmacéuticos, que constituyen las existencias reales de la empresa. 
 
     .row.cont_1_2.mt-5
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
@@ -37,7 +37,7 @@
           img(src="@/assets/curso/tema1/5.png" data-aos="fade-right")
       .col-lg-5(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#F6F6F6;width:150%;left:-70%;right: 0;border-radius:0px 40px 40px 0px;position:relative;z-index:2;")
-          p Las farmacias o droguerías cuentan con un gran stock de productos farmacéuticos, como son:
+          p Las farmacias o droguerías cuentan con un gran #[em stock] de productos farmacéuticos, como son:
           ul.lista-ul.mt-3.mb-0
             li 
               i.fas.fa-atom(style="color:#FF9D00;")
@@ -58,8 +58,8 @@
               i.fas.fa-atom(style="color:#FF9D00;")
               | Entre otros.
 
-    p.mt-5(data-aos="fade-up") Todos ellos se deben comprar y mantener para no quedarse sin existencias y poder distribuir, dispensar y/o venderlos a pacientes y clientes.
-    p.mt-4(data-aos="fade-up") La siguiente figura 1 representa el proceso de realizar una toma física de inventario:
+    p.mt-5(data-aos="fade-up") Todos ellos se deben comprar y mantener para no quedarse sin existencias y poder distribuir, dispensar o venderlos a pacientes y clientes.
+    p.mt-4(data-aos="fade-up") La figura 1 representa el proceso de realizar una toma física de inventario:
 
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones.mt-5
@@ -171,7 +171,7 @@
             .bloque-texto-b.color-secundario.p-4.mt-3.bloque-texto1
               .bloque-texto-b__texto(data-aos="fade-right")
                 i.fas.fa-quote-left
-                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés #[em Radio Frequency Identification]) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em automatic identification], o identificación automática).
+                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés Radio Frequency Identification) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em Automatic Identification], o identificación automática).
                 i.fas.fa-quote-right
           .col-lg-6
             figure
@@ -247,7 +247,7 @@ export default {
 .cont_1_1:before
   content: ''
   position: absolute
-  width: 100%
+  width: 125%
   left: -15%
   top: 8%
   height: 100%

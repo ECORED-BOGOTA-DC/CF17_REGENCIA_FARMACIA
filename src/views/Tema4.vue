@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema4/2.png" data-aos="fade-right")
       .col-lg-4(style="place-self:center;")
-        .p-4.cont_responsive2.pt-5.pb-5(data-aos="fade-left" style="background-color:#CDEDFC;width:100%;left:-40%;right: 0;border-radius:40px 40px 0px 40px;position:relative;z-index:2;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
+        .p-4.cont_responsive2.pt-5.pb-5(data-aos="fade-left" style="background-color:#CDEDFC;width:100%;left:-40%;right: 0;border-radius:40px 40px 0px 40px;position:relative;z-index:0;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
           p.mb-0 Cometer errores durante la revisión del inventario en la rotación de los productos farmacéuticos, puede generar devoluciones de los clientes, tiempo perdido, stock caducado y pérdida de imagen del producto; esto sin mencionar el riesgo que representa para la salud del paciente el consumo o utilización de un producto vencido o en mal estado.
     
     .col-lg-8.m-auto.mt-5
@@ -43,7 +43,7 @@
     .titulo-segundo
       h2#t_4_2 4.2 Control de existencias o movimientos
     
-    p(data-aos="fade-up") Se pretende comparar el inventario real con el inventario que muestra el software de información, en función del movimiento de los productos que entran y salen de la empresa. 
+    p(data-aos="fade-up") Se pretende comparar el inventario real con el inventario que muestra el #[em software] de información, en función del movimiento de los productos que entran y salen de la empresa. 
 
     .row.mt-5.cont_4_2.m-auto.pt-5
       .col-lg.mb-4.mb-lg-0
@@ -65,7 +65,7 @@
             img(src="@/assets/curso/tema4/8.png" data-aos="fade-right")
         .col-lg-4(style="place-self:center;")
           .p-4.cont_responsive2.pt-5.pb-5(data-aos="fade-left" style="background-color:#fff;width:130%;left:-40%;right: 0;border-radius:40px 40px 40px 0px;position:relative;z-index:2;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
-            p.mb-0 Se habla de deterioros cuando se refiere a daños, averías o a posibles pérdidas de medicamentos y/o dispositivos médicos, por obsolescencia programada, vencimientos o regulares condiciones de conservación y transporte. El control de las características fisicoquímicas y la estabilidad del producto farmacéutico se deben controlar durante los procesos de recepción y almacenamiento, por lo anterior si se reciben productos no conformes, es prioritario hacer las devoluciones respectivas en las Actas de Devoluciones.
+            p.mb-0 Se habla de deterioros cuando se refiere a daños, averías o a posibles pérdidas de medicamentos o dispositivos médicos, por obsolescencia programada, vencimientos o regulares condiciones de conservación y transporte. El control de las características fisicoquímicas y la estabilidad del producto farmacéutico se deben controlar durante los procesos de recepción y almacenamiento, por lo anterior si se reciben productos no conformes, es prioritario hacer las devoluciones respectivas en las Actas de Devoluciones.
 
     .row.mt-5
       .col-lg-4.mb-lg-0(style="place-self:center;")
