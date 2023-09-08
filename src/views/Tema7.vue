@@ -26,7 +26,7 @@
               | Ayuda a crear el pedido de manera racional, con la fácil localización de pérdidas. 
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema7/1.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema7/1.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") La siguiente imagen muestra algunos de los elementos que se incluyen en un Kárdex (ver figura 3).
 
@@ -34,7 +34,7 @@
       h5.d-block Figura 3
       span #[em Elementos de un Kárdex]
     figure.mt-5
-      img(src="@/assets/curso/tema7/2.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema7/2.svg" data-aos="zoom-in-up" alt="Imagen que contiene un ejemplo de los elementos de un Kardex, los cuales son: Nombre del medicamento: Ácido acetil salicílico Concentración: 500 mg Presentación: Tabletas Máxima cantidad a pedir (si pides más se vencerá): Stock máximo: 315 Mínima cantidad a tener: Stock mínimo: 35 Fecha: 01-01-21, 02-01-21, 05-01-21, 13-01-21 Documento: b/v 123 diremid Entrada: 200 Salida: -, 25, 50, 35 Saldo: 200, 175, 125, 90, -, 45 Observación")
 
 
 

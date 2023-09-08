@@ -11,7 +11,7 @@
       p(data-aos="fade-up") La imagen representa algunas de las consecuencias de la no realización de un adecuado inventario:
       .col-lg-6.m-auto.mt-5
         figure
-          img(src="@/assets/curso/tema5/2.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema5/2.svg" data-aos="zoom-in-up" alt="Imagen con algunas de las consecuencias de la no realización de un adecuado inventario, las cuales son: Pérdidas económicas Pérdida en ventas Pérdidas de unidades Descuadres de unidades")
 
 
 
