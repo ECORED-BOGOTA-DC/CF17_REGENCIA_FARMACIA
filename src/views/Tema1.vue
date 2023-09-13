@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Inventarios
@@ -10,7 +10,7 @@
     .row
       .col-lg-4.mb-5.mb-lg-0.cont_1_1(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img.m-auto.mb-5.mb-lg-0(src="@/assets/curso/tema1/2.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") El inventario es una relación organizada de bienes y existencias (en este caso productos farmacéuticos), de una entidad o empresa (servicio o establecimiento farmacéutico), a una fecha determinada. Contablemente es una cuenta de activos en circulación que representan el valor de las mercancías existentes en un almacén.
         p.mt-4(data-aos="fade-up") Los inventarios son un punto crítico en las empresas del sector farmacéutico, convirtiéndose en uno de los indicadores de servicio y respuesta eficiente al paciente. Los niveles de demanda de medicamentos y dispositivos médicos constituyen los datos de entrada para la planeación y control de todas las áreas funcionales de las instituciones prestadoras de servicios de salud, incluyendo logística, marketing, producción y finanzas. La adquisición y almacenamiento de productos farmacéuticos es una tarea compleja que requiere de mucho tiempo, el inventario es continuo, ya que la entrada y salida de productos es constante. 
@@ -27,35 +27,35 @@
             i.fas.fa-quote-right
       .col-lg-3(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/3.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema1/3.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
     
     p.mt-5(data-aos="fade-up") El desarrollo y control del inventario de una farmacia o servicio farmacéutico, está directamente relacionada con el volumen de su actividad diaria, con el nivel de complejidad en el cual se ejecuta; por lo tanto, el inventario de una empresa del sector farmacéutico depende del tamaño, volumen, estructura y características y principalmente a los procesos de selección y adquisición de medicamentos, dispositivos médicos y productos farmacéuticos, que constituyen las existencias reales de la empresa. 
 
     .row.cont_1_2.mt-5
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/5.png" data-aos="fade-right" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema1/5.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-5(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#F6F6F6;width:150%;left:-70%;right: 0;border-radius:0px 40px 40px 0px;position:relative;z-index:2;")
           p Las farmacias o droguerías cuentan con un gran #[em stock] de productos farmacéuticos, como son:
-          ul.lista-ul.mt-3.mb-0
+          ul.fa-ul.mt-3.mb-0
             li 
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Medicamentos.
             li 
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Dispositivos médicos.
             li 
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Productos de cosmetología.
             li 
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Medicamentos homeopáticos.
             li 
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Productos fitoterapeuticos. 
             li.mb-0
-              i.fas.fa-atom(style="color:#FF9D00;")
+              i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Entre otros.
 
     p.mt-5(data-aos="fade-up") Todos ellos se deben comprar y mantener para no quedarse sin existencias y poder distribuir, dispensar o venderlos a pacientes y clientes.
@@ -66,26 +66,26 @@
         h5.d-block Figura 1
         span #[em Toma inventario físico]
       figure.mt-5
-        img(src="@/assets/curso/tema1/6.png" data-aos="zoom-in-up" alt="Imagen con una persona haciendo un inventario en una bodega")
+        img.m-auto(src="@/assets/curso/tema1/6.png" data-aos="zoom-in-up" alt="Imagen con una persona haciendo un inventario en una bodega" style="max-width:350px;")
     
     p.mt-5(data-aos="fade-up") Las existencias de productos en las farmacias tienen ciertas características:
 
     .col-lg-10.m-auto.mt-5
       .tarjeta-avatar-b(data-aos="fade-up")
         .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema1/7.svg' style="max-width:150px;")
+          img.m-auto(src='@/assets/curso/tema1/7.svg' style="max-width:150px;")
         .tarjeta.tarjeta--azul.d-flex.align-items-center(style="background-color:#F1EEFC;border-top-right-radius:0px;border-bottom-right-radius:0px;border-right:7px #7E5EE3 solid;")
           .p-1
             p.mb-0 Productos similares en su nombre o empaque.
       .tarjeta-avatar-b.mt-4(data-aos="fade-up")
         .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema1/8.svg' style="max-width:150px;")
+          img.m-auto(src='@/assets/curso/tema1/8.svg' style="max-width:150px;")
         .tarjeta.tarjeta--azul.d-flex.align-items-center(style="background-color:#F1EEFC;border-top-right-radius:0px;border-bottom-right-radius:0px;border-right:7px #7E5EE3 solid;")
           .p-1
             p.mb-0 Fechas de vencimiento.
       .tarjeta-avatar-b.mt-4(data-aos="fade-up")
         .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema1/9.svg' style="max-width:150px;")
+          img.m-auto(src='@/assets/curso/tema1/9.svg' style="max-width:150px;")
         .tarjeta.tarjeta--azul.d-flex.align-items-center(style="background-color:#F1EEFC;border-top-right-radius:0px;border-bottom-right-radius:0px;border-right:7px #7E5EE3 solid;")
           .p-1
             p.mb-0 Algunos medicamentos tienen una vida útil corta, mientras que otros requieren de condiciones especiales de almacenamiento para asegurar la cadena de frío, por lo que deben tratarse con precisión durante el almacenamiento, como si se tratara de alimentos frescos.
@@ -95,7 +95,7 @@
     .row.mt-5
       .col-lg-3.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-9.row
         .col-lg-6.mb-4.mb-lg-0
           .tarjeta-numerada.color-acento-contenido.p-5
@@ -122,7 +122,7 @@
 
     .col-lg-6.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" alt="Imagen que indica los componentes de un inventario, los cuales son: 1. Personal capacitado 2. Papelería: lápiz, papel, etc. 3. Productos farmacéuticos 4. Software de gestión")
+        img.m-auto(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" alt="Imagen que indica los componentes de un inventario, los cuales son: 1. Personal capacitado 2. Papelería: lápiz, papel, etc. 3. Productos farmacéuticos 4. Software de gestión" style="max-width:350px;")
     
     Separador.mt-5
 
@@ -154,7 +154,7 @@
                 | Si la diferencia encontrada entre los dos conteos anteriores, se debe ejecutar nuevamente dos conteos físicos en el 100% del producto y un tercer conteo en paralelo con el del #[em software].
           .col-lg-6
             figure
-              img(src="@/assets/curso/tema1/12.png" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema1/12.png" alt="Imagen decorativa" style="max-width:350px;")
         .row.col-xl-11.m-auto
           .col-lg-6.mb-4.mb-lg-0
             h4 Inventario periódico: 
@@ -175,7 +175,7 @@
                 i.fas.fa-quote-right
           .col-lg-6
             figure
-              img(src="@/assets/curso/tema1/13.png" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema1/13.png" alt="Imagen decorativa" style="max-width:350px;")
         .row.col-xl-11.m-auto
           .col-lg-6.mb-4.mb-lg-0
             h4 Inventario permanente:
@@ -194,14 +194,14 @@
                 | Se puede aplicar a aquellos grupos de medicamentos o insumos de alta rotación, alto costo y de control especial, lo que va a permitir un control rápido de las inconsistencias y a favorecer las acciones correctivas.
           .col-lg-6
             figure
-              img(src="@/assets/curso/tema1/14.png" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema1/14.png" alt="Imagen decorativa" style="max-width:350px;")
         .row.col-xl-11.m-auto
           .col-lg-6.mb-4.mb-lg-0
             h4 Tecnología:
             p.mt-3 Actualmente, la tecnología más utilizada en las empresas y negocios del sector farmacéutico, para la identificación de los productos farmacéuticos, es de #[strong códigos de barras], los cuales presentan algunas desventajas, como la imposibilidad de ser reprogramados; lo que representa un mayor costo y un reproceso; razón por la cual las etiquetas RFID, dispositivos pequeños, similares a una etiqueta adhesiva, que pueden  adherirse a el empaque o caja de un producto, lo que contienen dispositivos especiales que permite recibir y responder por radiofrecuencia desde un emisor-receptor RFID.
           .col-lg-6
             figure
-              img(src="@/assets/curso/tema1/15.png" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema1/15.png" alt="Imagen decorativa" style="max-width:350px;")
 
     Separador.mt-5
 
@@ -213,7 +213,7 @@
     ImagenInfografica.color-acento-botones.mt-5.infografia1
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema1/16.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
+          img.m-auto(src='@/assets/curso/tema1/16.svg' data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;")
       .tarjeta.color-acento-botones.p-3(x="35%" y="45%" numero="1" style="background-color:#E0D9F6;border-radius:0px;")
         p(style="color:#12263F;") #[strong(style="color:#12263F;") Registran información:] se realizan las inspecciones de las entradas y salidas de los productos farmacéuticos del servicio o establecimiento farmacéutico, luego dicha información resultante se debe registrar.
       .tarjeta.color-acento-botones.p-3(x="35%" y="55%" numero="2" style="background-color:#E0D9F6;border-radius:0px;")

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Trazabilidad
@@ -10,7 +10,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/1.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/1.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-8(style="place-self:center;")
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
@@ -51,7 +51,7 @@
           p.mt-4(data-aos="fade-up") (GS1, 2017). Ley 1122 de 2007, en su numeral 34, literal d. 
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema3/2.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/2.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
     
     Separador.mt-5
 
@@ -62,7 +62,7 @@
       .col-lg-10.row.m-auto
         .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema3/3.png" data-aos="fade-right" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/3.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
         .col-lg-4(style="place-self:center;")
           .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#F6F6F6;width:150%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;position:relative;z-index:2;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
             p.mb-0 En una farmacia o droguería, el inventario se realiza para conocer el surtido y la circulación de los productos. De acuerdo con lo anterior se tendrá una idea precisa y concreta de los productos disponibles y permite decidir cuándo realizar un pedido con el proveedor. Este cálculo se denomina pedido anticipado porque el momento exacto para solicitar el medicamento depende de la tasa de consumo y el tiempo de rotación.
@@ -135,25 +135,25 @@
         h5.d-block Figura 2
         span Gráfico tipos de #[em stock]
       figure.mt-5
-        img(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up" alt="Imagen con algunos stock, los cuales son: Stock máximo Stock muerto Stock de tránsito Stock de ciclo Stock de seguridad Stock muerto Stock de presentación")
+        img.m-auto(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up" alt="Imagen con algunos stock, los cuales son: Stock máximo Stock muerto Stock de tránsito Stock de ciclo Stock de seguridad Stock muerto Stock de presentación" style="max-width:350px;")
         figcaption.fw-normal.mt-3(style="backgorund-color:#E8E8E8;") Nota.Adaptada de McGraw Hill España. La gestión de #[em stock]. (s.f.).
       .row.mt-5
         .col-lg.p-0
           figure
-            img(src="@/assets/curso/tema3/6.png" data-aos="fade-right" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/6.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
         .col-lg.p-0
           .p-5.h-100.d-flex.align-items-center(style="background-color:#D3EFFC;" data-aos="zoom-in-up")
             p.mb-0 El #[em stock] o existencias, es el conjunto de productos almacenados por una empresa. Estas existencias se refieren no solo a los medicamentos y dispositivos médicos, sino también a las materias primas de las centrales de mezclas y a los productos terminados dispuestos para ser entregados a clientes.
         .col-lg.p-0
           figure
-            img(src="@/assets/curso/tema3/7.png" data-aos="fade-left" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/7.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
     
     p.mt-5(data-aos="fade-up") La gestión de #[em stocks] está muy ligada con la evaluación contable de las existencias como activos en la contabilidad de las empresas, en este caso de los depósitos de medicamentos, farmacias o droguerías. Como resultado de las variables contables de un negocio, han surgido distintas estrategias de gestión de #[em stocks], que no tienen relación con la contabilidad. Estas pueden ser:
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")
         figure.figure_img1(style="position:relative;" alt="Imagen decorativa")
-          img(src="@/assets/curso/tema3/8.svg" data-aos="zoom-in-up")
+          img.m-auto(src="@/assets/curso/tema3/8.svg" data-aos="zoom-in-up" style="max-width:350px;")
       .col-lg-8.row
         .col-lg-6.mb-4
           .tarjeta-numerada.color-acento-contenido.p-5.h-100
@@ -194,41 +194,41 @@
             p.mb-0 Ante el desconocimiento de la evolución del mercado en el sector, la empresa podrá hacer frente a incrementos en las ventas ¿Cuánto hay que comprar? ¿Cada cuánto hay que comprar? Por lo anterior pueden suceder dos cosas: compro más de lo que se vende o no compro lo suficiente y cuando llega el cliente no hay lo que necesita.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/9.svg" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/9.svg" alt="Imagen decorativa" style="max-width:350px;")
       .tarjeta.color-secundario--borde(titulo="Comercial")
         .row
           .col-lg-7.mb-4.mb-lg-0.p-5
             p.mb-0 Facilita el movimiento del producto, permitiendo cumplir con los plazos y condiciones pactadas con los clientes. Por ejemplo, de acuerdo a las condiciones de almacenamiento recomendadas por el laboratorio productor, se puede programar la entrega del medicamento al paciente.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/10.svg" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/10.svg" alt="Imagen decorativa" style="max-width:350px;")
       .tarjeta.color-secundario--borde(titulo="Económica")
         .row
           .col-lg-7.mb-4.mb-lg-0.p-5
             p.mb-0  Al comprar grandes volúmenes de mercancía o lotes completos de productos específicos, es posible negociar mejores precios y condiciones de pago, es decir, economías de escala.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema3/11.svg" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/11.svg" alt="Imagen decorativa" style="max-width:350px;")
     
     p.mt-5(data-aos="fade-up") En empresas como las Instituciones Prestadoras de Servicios de Salud (IPS), el manejo de los niveles de medicamentos e insumos como dispositivos médicos, y elementos de protección personal para la prestación del servicio de salud al paciente, en unidades quirúrgicas o en la unidad de cuidados intensivos, resulta difícil debido a factores como:
 
     .row.mt-5.col-lg-10.m-auto
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/12.png" data-aos="fade-right" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/12.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-6(style="place-self:center;")
         .p-4.h-100(style="background-color:#F6F6F6;")
           ul.lista-ul.mb-0
-            li(data-aos="fade-up")
+            li.d-flex(data-aos="fade-up")
               i.fas.fa-atom(style="color:#FF9D00;")
               | La alta variabilidad de la demanda de servicios.
-            li(data-aos="fade-up")
+            li.d-flex(data-aos="fade-up")
               i.fas.fa-atom(style="color:#FF9D00;")
               | La dinámica de los convenios con proveedores externos.
-            li(data-aos="fade-up")
+            li.d-flex(data-aos="fade-up")
               i.fas.fa-atom(style="color:#FF9D00;")
               | La atención de lo inesperado e impredecible.
-            li.mb-0(data-aos="fade-up")
+            li.d-flex.mb-0(data-aos="fade-up")
               i.fas.fa-atom(style="color:#FF9D00;")
               | Otros factores como los derivados de la alta complejidad y el estrés situacional del servicio.
       .cajon.color-secundario.p-4.mt-5(style="background-color:#E4DDFA;")
@@ -241,12 +241,12 @@
       .col-lg-11.row.m-auto
         .col-lg-4.col-md-5.mb-4.mb-md-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema3/13.svg" data-aos="fade-right" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/13.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
         .col-lg-8.col-md-7(style="place-self:center;")
           p(data-aos="fade-up") En la presentación “Gestión de inventarios” se podrá encontrar información y material adicional en relación con las temáticas tratadas.
           a.anexo.mt-4.bg-white(:href="obtenerLink('downloads/OKEst_Anexo1_CF017_Gestion_inventarios.pptx')" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-ppt.svg")
+              img.m-auto(src="@/assets/template/icono-ppt.svg" style="max-width:350px;")
             .anexo__texto
               p.mb-0.fw-bold Anexo. Gestión inventarios
     
@@ -257,22 +257,22 @@
     
     .row
       .col-md.p-0
-        .h-100.p-5.text-center(style="background-color:#E6F7FE;border-radius:20px; 0px 0px 20px;")
+        .h-100.p-5.text-center(style="background-color:#E6F7FE;border-radius:20px 0px 0px 20px;")
           figure.col-4.m-auto
-            img(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;")
           h3.mt-5(data-aos="fade-up") Demanda:
           p.mt-4(data-aos="fade-up") Se refiere a la cantidad de bienes o servicios que se solicitan o se desean en un determinado mercado de una economía a un precio específico.
       .col-md.p-0
         .h-100.p-5.text-center(style="background-color:#99E4EE;border-radius:0px; 20px 20px 0px;")
           figure.col-4.m-auto
-            img(src="@/assets/curso/tema3/15.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+            img.m-auto(src="@/assets/curso/tema3/15.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;")
           h3.mt-5(data-aos="fade-up") Oferta:
           p.mt-4(data-aos="fade-up") Hace referencia a la cantidad de bienes, productos o servicios que se ofrecen en un mercado bajo unas determinadas condiciones.
     
     .row.m-auto.mt-5
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/16.png" data-aos="fade-right" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/16.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-4(style="place-self:center;")
         .p-4.pt-5.pb-5.cont_responsive2(data-aos="fade-left" style="background-color:#CDEDFC;width:150%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;position:relative;z-index:2;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
           p.mb-0 En este sentido, la demanda de los productos farmacéuticos se podría considerar como una demanda que se deriva de la demanda por servicios médicos, ya que esta se constituye como el punto de partida para la prescripción médica (mercado ético), distribución y consumo final.
@@ -290,14 +290,14 @@
         p.mt-4(data-aos="fade-up") Si se resta al precio de venta, los costos, gastos y ese resultado es una diferencia positiva, a esto se le considera utilidad.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/17.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/17.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
         
     .col-lg-10.m-auto.mt-5
       .bloque-texto-a.color-secundario.p-4.p-md-5
         .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
             figure.text-center
-              img(src="@/assets/curso/tema3/18.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
+              img.m-auto(src="@/assets/curso/tema3/18.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           .col-lg-8
             .bloque-texto-a__texto.p-4
               p.mb-0(data-aos="fade-up") #[strong Ejemplo:] el precio del medicamento Verapamilo 120 mg caja por 30 tabletas es de $7000 y los gastos generados son $2000, dicha diferencia será de $5000. A esto se le considerará la utilidad de cada caja vendida de este medicamento.
@@ -312,20 +312,20 @@
         p(data-aos="fade-up") Los productos farmacéuticos son los activos más importantes de los proveedores de atención médica o servicios de salud, las farmacias, los depósitos mayoristas y minoristas; las farmacias o droguerías, deben administrarse de la manera más eficiente y efectiva posible, es por ello que en la gestión de inventarios debe hacerse un control estricto en el #[em stock], en los deterioros y en las fechas de vencimientos. 
         p.mt-4(data-aos="fade-up") La administración de cada servicio farmacéutico define la política de inventario que se aplicará en determinada empresa o negocio del sector farmacéutico; básicamente se busca el punto de equilibrio para hacer rentable todo el proceso. Generalmente se determina de acuerdo con el costo de los productos farmacéuticos frente a la demanda o utilización de estos. Entre los indicadores más utilizados para generar la Política de inventarios se encuentran:
         ul.lista-ul.mb-0.mt-4
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")
             | Costo directo de reabastecer el inventario.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")
             | Costo de mantener unidades en inventario.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-atom(style="color:#FF9D00;")
             | Costo de tener un faltante de unidades.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#E4DDFA;")
           p.mb-0(data-aos="fade-up") El objetivo de la Política de inventarios es minimizar el costo total de inventario por unidad de tiempo (1 año).
       .col-lg-5.col-md-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/19.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img.m-auto(src="@/assets/curso/tema3/19.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
         
 
 

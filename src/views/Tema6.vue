@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Procedimiento para hacer inventario
@@ -11,7 +11,7 @@
 
     .col-lg-8.m-auto.mt-5
       figure
-        img(src="@/assets/curso/tema6/1.svg" data-aos="zoom-in-up" alt="Imagen con un diagrama de flujo sobre un proceso genérico para la realización del inventario, el cual incluye: Verificar stock de mercancías en el PC Verificar stock físico Concuerdan las cantidades Si Diligenciar formato No Buscar en bodegas A, cuarentena, vencimiento, etc. Se encuentran los productos Sí Diligenciar formato No Informar al jefe inmediato")
+        img.m-auto(src="@/assets/curso/tema6/1.svg" data-aos="zoom-in-up" alt="Imagen con un diagrama de flujo sobre un proceso genérico para la realización del inventario, el cual incluye: Verificar stock de mercancías en el PC Verificar stock físico Concuerdan las cantidades Si Diligenciar formato No Buscar en bodegas A, cuarentena, vencimiento, etc. Se encuentran los productos Sí Diligenciar formato No Informar al jefe inmediato" style="max-width:350px;")
     
     p.mt-5(data-aos="fade-up") Los pasos para realizar inventario en la farmacia son:
 
@@ -25,11 +25,11 @@
                 p Cuando se realiza el inventario periódico, es decir, 1 o 2 veces al año, es pertinente realizarlo con la farmacia cerrada, para evitar que haya movimiento del stock, de lo contrario escoger un momento en el que haya poca aglomeración de clientes.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema6/3.png' data-aos="fade-left" alt="Imagen decorativa")
+                img.m-auto(src='@/assets/curso/tema6/3.png' data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
           .row
             .col-lg-6.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema6/4.png' data-aos="fade-right" alt="Imagen decorativa")
+                img.m-auto(src='@/assets/curso/tema6/4.png' data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
             .col-lg-6
               div(data-aos="fade-left")
                 h3.text-start Registros
@@ -41,7 +41,7 @@
                 p Establecer un margen de error, al momento de hacer el muestreo, de esta forma se identifican las oportunidades de mejora y se toman decisiones concretas para la compra o adquisición de insumos o productos.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema6/5.png' data-aos="fade-left" alt="Imagen decorativa")
+                img.m-auto(src='@/assets/curso/tema6/5.png' data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")
 
 
 
