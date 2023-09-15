@@ -10,7 +10,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EvCtbrFspJY" title="Gestión de inventarios de un servicio farmacéutico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.mt-5
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
