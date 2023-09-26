@@ -431,13 +431,13 @@ export default {
       autores: [
         {
           nombre: 'Yazmín Rocío Figueroa Pacheco',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web - 2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo fullstack - 2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -472,7 +472,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

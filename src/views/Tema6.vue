@@ -6,15 +6,11 @@
       .titulo-principal__numero
         span 6
       h1 Procedimiento para hacer inventario
-
-    p(data-aos="fade-up") La siguiente imagen representa un proceso genérico para la realización del inventario:
-
+    p(data-aos="fade-left") La siguiente imagen representa un proceso genérico para la realización del inventario:
     .col-lg-8.m-auto.mt-5
       figure
-        img.m-auto(src="@/assets/curso/tema6/1.svg" data-aos="zoom-in-up" alt="Imagen con un diagrama de flujo sobre un proceso genérico para la realización del inventario, el cual incluye: Verificar stock de mercancías en el PC Verificar stock físico Concuerdan las cantidades Si Diligenciar formato No Buscar en bodegas A, cuarentena, vencimiento, etc. Se encuentran los productos Sí Diligenciar formato No Informar al jefe inmediato" style="max-width:350px;")
-    
-    p.mt-5(data-aos="fade-up") Los pasos para realizar inventario en la farmacia son:
-
+        img.m-auto(src="@/assets/curso/tema6/1.svg" data-aos="fade-right" alt="Imagen con un diagrama de flujo sobre un proceso genérico para la realización del inventario, el cual incluye: Verificar stock de mercancías en el PC Verificar stock físico Concuerdan las cantidades Si Diligenciar formato No Buscar en bodegas A, cuarentena, vencimiento, etc. Se encuentran los productos Sí Diligenciar formato No Informar al jefe inmediato" style="max-width:850px;")
+    p.mt-5(data-aos="fade-left") Los pasos para realizar inventario en la farmacia son:
     .cont_6_1.mt-5
       .col-lg-10.m-auto
         PasosA.color-acento-contenido(tipo="n")
