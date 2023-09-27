@@ -23,7 +23,7 @@
             i.fas.fa-quote-right
       .col-lg-3(style="place-self:center;")(data-aos="fade-left")
         figure
-          img.m-auto(src="@/assets/curso/tema1/3.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:300px;")
+          img.m-auto(src="@/assets/curso/tema1/3.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:300px;")
     p.mt-4(data-aos="fade-down") El desarrollo y control del inventario de una farmacia o servicio farmacéutico, está directamente relacionada con el volumen de su actividad diaria, con el nivel de complejidad en el cual se ejecuta; por lo tanto, el inventario de una empresa del sector farmacéutico depende del tamaño, volumen, estructura y características y principalmente a los procesos de selección y adquisición de medicamentos, dispositivos médicos y productos farmacéuticos, que constituyen las existencias reales de la empresa.
     .row.cont_1_2.mt-5
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")(data-aos="fade-right")

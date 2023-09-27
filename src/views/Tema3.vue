@@ -225,7 +225,7 @@
             .anexo__icono
               img.m-auto(src="@/assets/template/icono-ppt.svg" style="max-width:350px;")
             .anexo__texto
-              p.mb-0.fw-bold Anexo. Gestión inventarios
+              p.mb-0.fw-bold Anexo. Gestión inventarios.
     Separador
     .titulo-segundo
       h2#t_3_3 3.3 Demanda/oferta
