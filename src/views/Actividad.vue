@@ -7,17 +7,17 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
+            img(src="@/assets/template/opcion-multiple.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Gestión de inventarios
-        p.mb-4 Apropiar conceptos que son requeridos en inventario para los establecimientos farmacéuticos teniendo en cuenta sus características
+        p.mb-4 Apropiar conceptos que son requeridos en inventario para los establecimientos farmacéuticos teniendo en cuenta sus características.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Cuestionario
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
