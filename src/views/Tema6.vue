@@ -18,7 +18,7 @@
             .col-lg-6.mb-4.mb-lg-0
               div(data-aos="fade-right")
                 h3 Farmacia cerrada
-                p Cuando se realiza el inventario periódico, es decir, 1 o 2 veces al año, es pertinente realizarlo con la farmacia cerrada, para evitar que haya movimiento del stock, de lo contrario escoger un momento en el que haya poca aglomeración de clientes.
+                p Cuando se realiza el inventario periódico, es decir, 1 o 2 veces al año, es pertinente realizarlo con la farmacia cerrada, para evitar que haya movimiento del #[i stock], de lo contrario escoger un momento en el que haya poca aglomeración de clientes.
             .col-lg-6
               figure
                 img.m-auto(src='@/assets/curso/tema6/3.png' data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;")

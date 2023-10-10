@@ -18,7 +18,7 @@
             i.fas.fa-quote-right
         p.mt-3(data-aos="fade-right") La rastreabilidad o trazabilidad, es la capacidad de rastrear el historial, la aplicación o la ubicación de una entidad (actividad, proceso, producto, organización, individuo) a través de la información almacenada en un registro.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#E4DDFA;")
-          p.mb-0(data-aos="fade-right") “Le corresponde al INVIMA garantizar la identificación de los medicamentos en cualquier parte de la cadena de distribución, desde la producción hasta el consumidor final, mediante una tecnología de señalización, con el objetivo de evitar la falsificación, adulteración, vencimiento y contrabando.
+          p.mb-0(data-aos="fade-right") "Le corresponde al INVIMA garantizar la identificación de los medicamentos en cualquier parte de la cadena de distribución, desde la producción hasta el consumidor final, mediante una tecnología de señalización, con el objetivo de evitar la falsificación, adulteración, vencimiento y contrabando".
     p.mt-5(data-aos="fade-left") Colombia viene trabajando en un piloto basado en la aplicación de estándares internacionales que garanticen la seguridad y calidad de los medicamentos y dispositivos médicos en todos los procesos del ciclo de gestión de cualquier servicio farmacéutico, distribuidor mayorista y sus respectivas droguerías.
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0
@@ -103,7 +103,7 @@
           tr(style="background-color:#FAFAFA;")
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de anticipación
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] que se acumula ante un incremento previsto de las ventas.
-            td.p-4(style="border:0;") Se lanza una campaña de publicidad que dará lugar a un aumento de las ventas del 1%.
+            td.p-4(style="border:0;") Se lanza una campaña de publicidad que dará lugar a un aumento de las ventas del 1 %.
           tr(style="background-color:#FAFAFA;")
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") #[em Stock] de recuperación
             td.p-4(style="border:0;border-right:1px #E1E1E1 solid;") Existencias usadas que se pueden volver a utilizar en su totalidad o al menos en parte.
@@ -122,7 +122,7 @@
         p.mb-0 #[b Figura 2]. Gráfico tipos de #[em stock]
       figure.mt-5(data-aos="fade-left")
         img.m-auto(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up" alt="Imagen con algunos stock, los cuales son: Stock máximo Stock muerto Stock de tránsito Stock de ciclo Stock de seguridad Stock muerto Stock de presentación" style="max-width:1150px;")
-        figcaption.fw-normal.mt-3(style="backgorund-color:#E8E8E8;") Nota.Adaptada de McGraw Hill España. La gestión de #[em stock]. (s.f.).
+        figcaption.fw-normal.mt-3(style="backgorund-color:#E8E8E8;") Nota. Adaptada de McGraw Hill España. La gestión de #[em stock]. (s.f.).
       .row.mt-5(data-aos="fade-down")
         .col-lg.p-0
           figure
@@ -221,7 +221,7 @@
             img.m-auto(src="@/assets/curso/tema3/13.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
         .col-lg-8.col-md-7(style="place-self:center;")
           p(data-aos="fade-up") En la presentación “Gestión de inventarios” se podrá encontrar información y material adicional en relación con las temáticas tratadas.
-          a.anexo.mt-4.bg-white(:href="obtenerLink('downloads/OKEst_Anexo1_CF017_Gestion_inventarios.pptx')" target="_blank")
+          a.anexo.mt-4.bg-white(:href="obtenerLink('downloads/Anexo1_Gestion_de_inventarios.pptx')" target="_blank")
             .anexo__icono
               img.m-auto(src="@/assets/template/icono-ppt.svg" style="max-width:350px;")
             .anexo__texto

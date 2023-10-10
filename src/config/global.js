@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de inventarios de un servicio farmacéutico',
     descripcionCurso:
-      'El Tecnólogo de Regencia de Farmacia debe planear las compras, con base en la oportuna estimación de necesidades reales de productos farmacéuticos, medicamentos, cosméticos y dispositivos médicos, de acuerdo con la demanda del sector.  Durante el proceso de almacenamiento de estos productos, la realización del inventario permite evidenciar lo que puede ofertar y la forma de lograr fidelidad del cliente.',
+      'Un regencia de farmacia debe planear las compras, con base en la oportuna estimación de necesidades reales de productos farmacéuticos, medicamentos, cosméticos y dispositivos médicos, de acuerdo con la demanda del sector.  Durante el proceso de almacenamiento de estos productos, la realización del inventario permite evidenciar lo que puede ofertar y la forma de lograr fidelidad del cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -169,7 +169,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/331502_CF17_DU.pdf',
+        download: 'downloads/331502_CF17_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -196,8 +196,8 @@ export default {
       referencia:
         'Decreto 780 de 2016. [Ministerio de Salud y Protección-Social]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 6 mayo de 2016.',
       tipo: 'Documento',
-      descarga:
-        '/downloads/Anexo6_CF017_decreto_780_de_2016_Sector_Salud_y_Protección_Social.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
       tema: 'Inventarios',
@@ -255,7 +255,7 @@ export default {
         'El inventario de seguridad o de reserva es una protección ante la variabilidad de la demanda y del tiempo de reabastecimiento.',
     },
     {
-      termino: 'nventario en tránsito',
+      termino: 'Inventario en tránsito',
       significado:
         'El inventario en tránsito es aquel que se encuentra entre los puntos de producción o almacenamiento cuando el transporte no es instantáneo.',
     },
@@ -315,9 +315,9 @@ export default {
         'El sistema de inventario es un método de control de almacén, que permite asegurar el aprovisionamiento de mercancías y reducir los costos por pedido y por material faltante.',
     },
     {
-      termino: 'Software de gestión de inventarios',
+      termino: '<i>Software</i> de gestión de inventarios',
       significado:
-        'El software de gestión de inventarios es un programa informático que le proporciona al negocio una visión general del inventario, herramientas de planificación y datos sobre la ubicación del <em>stock</em>.',
+        'El <i>software</i> de gestión de inventarios es un programa informático que le proporciona al negocio una visión general del inventario, herramientas de planificación y datos sobre la ubicación del <em>stock</em>.',
     },
     {
       termino: 'Valoración de inventario',
@@ -368,7 +368,7 @@ export default {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -416,13 +416,13 @@ export default {
           nombre: 'Nelly Parra Guarín',
           cargo: 'Adecuación instruccional - 2023',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -433,31 +433,31 @@ export default {
           nombre: 'Yazmín Rocío Figueroa Pacheco',
           cargo: 'Diseño web - 2023',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollo fullstack - 2023',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -468,20 +468,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo:
             'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },

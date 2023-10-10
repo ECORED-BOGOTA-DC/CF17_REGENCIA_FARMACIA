@@ -12,7 +12,7 @@
           img.m-auto(src="@/assets/curso/tema4/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:650px;")
       .col-lg-4(style="place-self:center;")
         .p-4.cont_responsive2.pt-5.pb-5(data-aos="fade-left" style="background-color:#CDEDFC;width:100%;left:-40%;right: 0;border-radius:40px 40px 0px 40px;position:relative;z-index:0;box-shadow:0px 0px 30px rgba(0,0,0,.2);")
-          p.mb-0 Cometer errores durante la revisión del inventario en la rotación de los productos farmacéuticos, puede generar devoluciones de los clientes, tiempo perdido, stock caducado y pérdida de imagen del producto; esto sin mencionar el riesgo que representa para la salud del paciente el consumo o utilización de un producto vencido o en mal estado.
+          p.mb-0 Cometer errores durante la revisión del inventario en la rotación de los productos farmacéuticos, puede generar devoluciones de los clientes, tiempo perdido, #[i stock] caducado y pérdida de imagen del producto; esto sin mencionar el riesgo que representa para la salud del paciente el consumo o utilización de un producto vencido o en mal estado.
     .col-lg-8.m-auto.mt-5
       ImagenInfografica.color-acento-botones.infografia2
         template(v-slot:imagen)

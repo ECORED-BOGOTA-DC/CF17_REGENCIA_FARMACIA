@@ -12,7 +12,7 @@
           img.m-auto(src="@/assets/curso/tema1/2.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;")
       .col-lg-8(style="place-self:center;")(data-aos="fade-left")
         p El inventario es una relación organizada de bienes y existencias (en este caso productos farmacéuticos), de una entidad o empresa (servicio o establecimiento farmacéutico), a una fecha determinada. Contablemente es una cuenta de activos en circulación que representan el valor de las mercancías existentes en un almacén.
-        p.mb-0 Los inventarios son un punto crítico en las empresas del sector farmacéutico, convirtiéndose en uno de los indicadores de servicio y respuesta eficiente al paciente. Los niveles de demanda de medicamentos y dispositivos médicos constituyen los datos de entrada para la planeación y control de todas las áreas funcionales de las instituciones prestadoras de servicios de salud, incluyendo logística, marketing, producción y finanzas. La adquisición y almacenamiento de productos farmacéuticos es una tarea compleja que requiere de mucho tiempo, el inventario es continuo, ya que la entrada y salida de productos es constante.
+        p.mb-0 Los inventarios son un punto crítico en las empresas del sector farmacéutico, convirtiéndose en uno de los indicadores de servicio y respuesta eficiente al paciente. Los niveles de demanda de medicamentos y dispositivos médicos constituyen los datos de entrada para la planeación y control de todas las áreas funcionales de las instituciones prestadoras de servicios de salud, incluyendo logística, #[i marketing], producción y finanzas. La adquisición y almacenamiento de productos farmacéuticos es una tarea compleja que requiere de mucho tiempo, el inventario es continuo, ya que la entrada y salida de productos es constante.
     h4.mt-5(data-aos="fade-up") Es muy importante recordar que de acuerdo con la resolución 1403 del 2007:
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")(data-aos="fade-right")
@@ -47,7 +47,7 @@
               | Medicamentos homeopáticos.
             li 
               i.fas.fa-atom.fa-li(style="color:#FF9D00;")
-              | Productos fitoterapeuticos. 
+              | Productos fitoterapéuticos. 
             li.mb-0
               i.fas.fa-atom.fa-li(style="color:#FF9D00;")
               | Entre otros.
@@ -104,7 +104,7 @@
     p(data-aos="fade-up") Para garantizar el correcto desarrollo de un inventario, es necesario contar con una serie de componentes y materiales para su ejecución, entre ellos se encuentran:
     .col-lg-6.mt-5.m-auto
       figure
-        img.m-auto(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" alt="Imagen que indica los componentes de un inventario, los cuales son: 1. Personal capacitado 2. Papelería: lápiz, papel, etc. 3. Productos farmacéuticos 4. Software de gestión" style="max-width:650px;")
+        img.m-auto(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" alt="Imagen que indica los componentes de un inventario, los cuales son: 1. Personal capacitado 2. Papelería: lápiz, papel, etc. 3. Software de gestión 4. Productos farmacéuticos." style="max-width:650px;")
     Separador
     .titulo-segundo
       h2#t_1_2 1.2 Tipos de inventarios, descripción y periodicidad
@@ -129,7 +129,7 @@
                 | Se evalúan e identifican las diferencias más importantes y significativas para finalmente, realizar el ajuste relativo de #[em stocks], tomando en cuenta las políticas institucionales que definen la gestión de excedentes y desabastecimientos.
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
-                | Si la diferencia encontrada entre los dos conteos anteriores, se debe ejecutar nuevamente dos conteos físicos en el 100% del producto y un tercer conteo en paralelo con el del #[em software].
+                | Si hay diferencia encontrada entre los dos conteos anteriores, se debe ejecutar nuevamente dos conteos físicos en el 100 % del producto y un tercer conteo en paralelo con el del #[em software].
           .col-lg-6
             figure
               img.m-auto(src="@/assets/curso/tema1/12.png" alt="Imagen decorativa" style="max-width:350px;")
@@ -145,11 +145,11 @@
                 | Se realiza el seguimiento continuo de la tendencia de un producto, entradas y salidas, ya sea por su alto costo u otra característica importante.
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
-                | Se basa en las tecnologías de la información como lectura por scanner o tecnología de Radiofrecuencia (RFID).
+                | Se basa en las tecnologías de la información como lectura por #[i scanner] o tecnología de Radiofrecuencia (RFID).
             .bloque-texto-b.color-secundario.p-4.mt-3.bloque-texto1
               .bloque-texto-b__texto(data-aos="fade-right")
                 i.fas.fa-quote-left
-                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés Radio Frequency Identification) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em Automatic Identification], o identificación automática).
+                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés #[i Radio Frequency Identification]) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em Automatic Identification], o identificación automática).
                 i.fas.fa-quote-right
           .col-lg-6
             figure
@@ -163,7 +163,7 @@
                 | Se realiza a intervalos regulares de acuerdo con la política comercial del establecimiento o empresa.
               li.mb-3
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
-                | No todos los productos se cuentan en cada inventario, pero se especifica por un período mínimo establecido, durante el cual se debe ejecutar el 100% del inventario.
+                | No todos los productos se cuentan en cada inventario, pero se especifica por un período mínimo establecido, durante el cual se debe ejecutar el 100 % del inventario.
               li.mb-3
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
                 | Debe realizarse diariamente, incluye la verificación física de un grupo de fármacos específicos por laboratorio comercial o propiedades farmacológicas y la comparación con el inventario registrado en el sistema.
@@ -176,7 +176,7 @@
         .row.col-xl-11.m-auto
           .col-lg-6.mb-4.mb-lg-0
             h4 Tecnología:
-            p.mt-3 Actualmente, la tecnología más utilizada en las empresas y negocios del sector farmacéutico, para la identificación de los productos farmacéuticos, es de #[strong códigos de barras], los cuales presentan algunas desventajas, como la imposibilidad de ser reprogramados; lo que representa un mayor costo y un reproceso; razón por la cual las etiquetas RFID, dispositivos pequeños, similares a una etiqueta adhesiva, que pueden  adherirse a el empaque o caja de un producto, lo que contienen dispositivos especiales que permite recibir y responder por radiofrecuencia desde un emisor-receptor RFID.
+            p.mt-3 Actualmente, la tecnología más utilizada en las empresas y negocios del sector farmacéutico, para la identificación de los productos farmacéuticos, es de #[strong códigos de barras], los cuales presentan algunas desventajas, como la imposibilidad de ser reprogramados; lo que representa un mayor costo y un reproceso; razón por la cual las etiquetas RFID, dispositivos pequeños, similares a una etiqueta adhesiva, que pueden adherirse al empaque o caja de un producto, lo que contienen dispositivos especiales que permite recibir y responder por radiofrecuencia desde un emisor-receptor RFID.
           .col-lg-6
             figure
               img.m-auto(src="@/assets/curso/tema1/15.png" alt="Imagen decorativa" style="max-width:350px;")
