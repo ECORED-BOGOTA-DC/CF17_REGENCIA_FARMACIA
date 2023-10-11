@@ -149,7 +149,7 @@
             .bloque-texto-b.color-secundario.p-4.mt-3.bloque-texto1
               .bloque-texto-b__texto(data-aos="fade-right")
                 i.fas.fa-quote-left
-                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés #[i Radio Frequency Identification]) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em Automatic Identification], o identificación automática).
+                h4.mb-0 RFID o identificación por radiofrecuencia (del inglés Radio Frequency Identification) es un sistema de almacenamiento y recuperación de datos remotos que usa dispositivos denominados etiquetas, tarjetas o transpondedores RFID. El propósito fundamental de la tecnología RFID es transmitir la identidad de un objeto (similar a un número de serie único) mediante ondas de radio. Las tecnologías RFID se agrupan dentro de las denominadas Auto ID (#[em Automatic Identification], o identificación automática).
                 i.fas.fa-quote-right
           .col-lg-6
             figure
